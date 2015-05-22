@@ -5,3 +5,7 @@ It creates a hidden .git folder containing the meta data regardings all the comm
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 An intermediate state that allows you to assign files that should be included in the next commit. It allows you to organise your commits by splitting logical changes in the form of separate files. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can decide which files you want to include within the staging area for the next commit. Using git diff you can compare the differences between working directory and staged files, git diff --staged can be used to confirm the differences between staged files and the most recent commit.
