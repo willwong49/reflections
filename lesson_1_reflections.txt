@@ -1,0 +1,24 @@
+How did viewing a diff between two versions fo a file help you see the bug that was introduced?
+
+It was quickly able to pinpoint at a line level which changes had been made between versions. 
+This efficiently allows you to track down any typos or other reasons for bugs if your code has numerous lines.
+
+How could having easy access to the entire history of a file make youa more efficient programmer in the long term?
+
+If we need to back out any new changes that were deemed redundant this is instantly possible. Also in the case of introducing bugs we have a reference point to compare and contrast to pinpoint the errors.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+The checkpoints are much more meaningful but user error will mean that the user can forget to save frequently enough. Automatic saves ensure no work is lost but the version history will become cluttered very quickly and difficult to navigate with no descriptions against each change either.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Being able to save multiple files maintains the consistency of any changes made throughout a project if separate files are changed. This allows tracking changes across the whole project much more efficient. Separate saving would reduce the amount of space needed, in the case of Google Docs there could be millions of casual users who don't need multiple files per commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will display the entire history of commits including date and description as well as the unique id for each. Once we have the ids for the commits we want to compare we can use git diff against the two ids to display the difference in code.
+
+How might using version control make you more confident to make changes that could break something?
+
+The confidence comes from being able to revert back to an older version and also quickly being able to identify the potential change that broke something.
