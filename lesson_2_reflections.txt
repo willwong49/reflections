@@ -9,3 +9,11 @@ An intermediate state that allows you to assign files that should be included in
 How can you use the staging area to make sure you have one commit per logical change?
 
 You can decide which files you want to include within the staging area for the next commit. Using git diff you can compare the differences between working directory and staged files, git diff --staged can be used to confirm the differences between staged files and the most recent commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you would like to experiment by adding new features without affecting the original code base. Branches allow you to create variations of your project from a given commit and eventually merge them if required.
+
+How do the diagrams help you visualize the branch structure?
+
+They clearly show how and where branches deviate from the master and also identify any commits that are not "reachable" since they cannot be traced via a known branch. These would need a branch of their own otherwise they will be discarded when checking out to another branch.
