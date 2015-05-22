@@ -21,3 +21,7 @@ They clearly show how and where branches deviate from the master and also identi
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is the culmination of the work done on a separate branch back into the master. The diagram illustrates at what point the code was branched and how it continues on once merged, we can see clearly the reachability of the commits after merging as well.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic is great to reduce the tedium of finding and merging differences yourself. Manually merging is obviously required where Git isn't smart enough to determine exactly what should be included/excluded and should rightly be flagged to the user.
