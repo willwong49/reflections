@@ -22,3 +22,7 @@ git log will display the entire history of commits including date and descriptio
 How might using version control make you more confident to make changes that could break something?
 
 The confidence comes from being able to revert back to an older version and also quickly being able to identify the potential change that broke something.
+
+Now that you have your workspace set up what do you want to try using Git for?
+
+Developing Android apps perhaps. Learning Python.

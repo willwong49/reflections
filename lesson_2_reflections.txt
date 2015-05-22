@@ -17,3 +17,7 @@ If you would like to experiment by adding new features without affecting the ori
 How do the diagrams help you visualize the branch structure?
 
 They clearly show how and where branches deviate from the master and also identify any commits that are not "reachable" since they cannot be traced via a known branch. These would need a branch of their own otherwise they will be discarded when checking out to another branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is the culmination of the work done on a separate branch back into the master. The diagram illustrates at what point the code was branched and how it continues on once merged, we can see clearly the reachability of the commits after merging as well.
