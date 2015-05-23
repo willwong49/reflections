@@ -17,3 +17,7 @@ You can determine how many commits ahead you are of the remote to gauge how big 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 You'd have to send files to each other for review and painstakingly compare for any differences before being able to confirm the changes are acceptable. Comparing code would be a nightmare as would merging back into a master branch. Having no central system for communication regarding certain specific changes like in the pull request commenting system can quickly become messy communicating responses.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A branch will allow the master code to remain untouched should you wish to persue a new feature or change that others can collaborate on before finally merging back into the master branch. The problems lies in trying to merge everything back via pull requests, it can be cumbersome and complicated. Developing directly in the master branch would avoid this but the likelihood of breaking master code increases.
