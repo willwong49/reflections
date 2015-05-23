@@ -13,3 +13,7 @@ Fork is used if you want to take an existing repository and clone it in your Git
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can determine how many commits ahead you are of the remote to gauge how big a change it would be to merge
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You'd have to send files to each other for review and painstakingly compare for any differences before being able to confirm the changes are acceptable. Comparing code would be a nightmare as would merging back into a master branch. Having no central system for communication regarding certain specific changes like in the pull request commenting system can quickly become messy communicating responses.
