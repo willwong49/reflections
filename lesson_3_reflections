@@ -1,1 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+If you want to collaborate with others and share publicly or keep a version of it available in the cloud for access from any computer. Private repositories requires a subscription fee.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You may inadvertently overwrite files that you're working on locally with an updated remote version
